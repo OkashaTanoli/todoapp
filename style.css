@@ -1,0 +1,184 @@
+@font-face{
+    src: url("fonts/UbuntuCondensed-Regular.ttf");
+    font-family: okasha;
+}
+@font-face{
+    src: url("fonts/Roboto-LightItalic.ttf");
+    font-family: tanoli;
+}
+@font-face{
+    src: url("fonts/Poppins-Italic.ttf");
+    font-family: pop;
+}
+#mainContainer{
+    border-radius: 10px;
+    width: 450px;
+    height: 700px;
+    background-image: linear-gradient(rgb(71, 0, 65),rgb(251, 0, 197),rgb(161, 0, 167));
+    margin: 0 auto;
+    padding-top:12px;
+}
+.margin,.margin2{
+    margin:0 10px;
+    width: 95%;
+    margin-bottom: 10px !important;
+    display: flex;
+    justify-content: space-between;
+}
+#input,#input2{
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 225, 255);
+   width: 60%;
+   font-size: 30px;
+   border-bottom: 3px solid rgb(0, 225, 255);
+   transition: .5s;
+}
+::placeholder{
+    color: rgb(107, 107, 1) !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+#input:focus,#input2:focus{
+    outline: none;
+}
+#save1{
+    padding: 5px;
+    font-size: 40px;
+    width: 30%;
+    background-color:rgb(14, 219, 226) ;
+    border: none;
+    transition: 1s;
+    color: rgb(107, 107, 1);
+    font-weight: 700;
+    border-top-left-radius: 0px !important;
+    border-radius: 7px;  
+    border-bottom-left-radius: 30px;
+}
+#save1:focus{
+    outline: none;
+}
+#save1:hover{
+    color:rgb(0, 225, 255) ;
+    background-color: rgb(107, 107, 1);
+}
+.buttonsDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#button1{
+    width: 35%;
+    padding: 5px;
+    font-size: 35px;
+    background-color:rgb(14, 219, 226) ;
+    border: none;
+    transition: 1s;
+    color: rgb(107, 107, 1);
+    font-weight: 700;  
+    border-top-left-radius: 0px !important;
+    border-radius: 7px;  
+    border-bottom-left-radius: 30px;
+}
+#button2{
+    width: 55%;
+    padding: 5px;
+    font-size: 35px;
+    background-color:rgb(14, 219, 226) ;
+    border: none;
+    transition: 1s;
+    color: rgb(107, 107, 1);
+    font-weight: 700;
+    border-top-left-radius: 0px !important;
+    border-radius: 7px;  
+    border-bottom-left-radius: 30px;
+}
+#button1:hover,#button2:hover{
+    color:rgb(0, 225, 255) ;
+    background-color: rgb(107, 107, 1);
+}
+#button1:focus,#button2:focus{
+    outline: none;
+}
+#headingDiv h1{
+    margin-top: 0px;
+    color: rgb(27, 41, 41);
+     font-family: okasha;
+     font-size: 40px;
+     text-align: center;
+     opacity: .8;
+}
+.flex{
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: space-around;
+}
+.div1{
+    width: 60%;
+    padding-left: 6px;
+}
+.div1 p{
+    color: rgb(238, 238, 238);
+    font-size: 31px;
+    font-family: pop;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.div2{
+    width:20%;
+}
+.div2 button{ 
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    font-size:25px ;
+} 
+.div2 button:focus{
+    outline: none;
+}
+.div3{
+    width: 20%;
+    text-align: center;
+}
+.div3 button{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+.div3 button:focus{
+    outline: none;
+}
+
+.width{
+    width: 30px;
+    transition-property: all;
+    transition-duration: .6s;
+}
+.width:hover{
+    transform: rotate(360deg);
+}
+#emptyDiv{
+    overflow-y: scroll;
+    padding-top: 10px;
+    height: 385px;
+    margin-top: -7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 10px 10px gray;
+}
+#emptyDiv::-webkit-scrollbar{
+    width: 10px;
+}
+#emptyDiv::-webkit-scrollbar-track{
+    background-color: rgb(123, 124, 124);
+    border-radius: 10px;
+}
+#emptyDiv::-webkit-scrollbar-thumb{
+    background-image:linear-gradient(rgb(0, 225, 255),rgb(107, 107, 1));
+    border-radius: 10px;
+}
+#emptyDiv::-webkit-scrollbar-corner{
+    background-color:transparent;
+}
+

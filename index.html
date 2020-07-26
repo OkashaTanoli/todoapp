@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <div id="mainContainer">
+        <div class="margin">
+            <input placeholder="Enter Heading" type="text" id="input" onclick="this.style.borderBottom='3px solid rgb(107, 107, 1) '" onblur="this.style.borderBottom = ' 3px solid rgb(0, 225, 255)'">
+             <button id="save1" onclick="addHeading()">Save</button>
+        </div>
+        <div  class="margin2">
+            <input placeholder="Enter Something" type="text" id="input2" onclick="this.style.borderBottom='3px solid rgb(107, 107, 1) '" onblur="this.style.borderBottom = ' 3px solid rgb(0, 225, 255)'">
+            <button id="save1" onclick="mainFunc()">Save</button>
+        </div>
+        <div class="buttonsDiv">
+            <button id="button1" onclick="clrAll()">Clear All</button>
+            <button id="button2" onclick="editHeading()">Edit Heading</button>
+        </div>
+        <hr>
+        <div id="headingDiv">
+            <h1 id="headingH1">Create Heading</h1>
+        </div>
+        <hr>
+        <div id="emptyDiv">
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
