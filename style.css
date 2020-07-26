@@ -182,3 +182,178 @@
     background-color:transparent;
 }
 
+
+
+
+
+
+
+
+@media(max-width:450px){
+    #mainContainer{
+        width: 100%;
+        height: 651px;
+    }
+    #input,#input2{
+       font-size: 27px;
+    }
+    ::placeholder{
+        font-size: 23px;
+    }
+    #save1{
+        padding: 4px;
+        font-size: 32px;
+        border-radius: 7px;  
+        border-bottom-left-radius: 28px;
+    }
+    #button1{
+        padding: 5px;
+        font-size: 30px;  
+        border-radius: 7px;  
+        border-bottom-left-radius: 28px;
+    }
+    #button2{
+        padding: 5px;
+        font-size: 30px;  
+        border-radius: 7px;  
+        border-bottom-left-radius: 28px;
+    }
+    .buttonsDiv{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    #headingDiv h1{
+        margin-top: 0px;
+        margin-bottom: 12px;
+         font-size: 37px;
+         opacity: .8;
+    }
+    .div1 p{
+        font-size: 24px;
+    }
+    .width{
+        width: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:400px){
+    #mainContainer{
+        width: 100%;
+        height: 624px;
+    }
+    #input,#input2{
+       font-size: 24px;
+    }
+    ::placeholder{
+        font-size: 20px;
+    }
+    #save1{
+        padding: 3px;
+        font-size: 30px;
+        border-radius: 5px;  
+        border-bottom-left-radius: 25px;
+    }
+    #button1{
+        padding: 3px;
+        font-size: 28px;  
+        border-radius: 5px;  
+        border-bottom-left-radius: 25px;
+    }
+    #button2{
+        padding: 3px;
+        font-size: 28px;  
+        border-radius: 5px;  
+        border-bottom-left-radius: 25px;
+    }
+    .buttonsDiv{
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    #headingDiv h1{
+        margin-top: 0px;
+        margin-bottom: 10px;
+         font-size: 35px;
+         opacity: .8;
+    }
+    .div1 p{
+        font-size: 22px;
+    }
+    .width{
+        width: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:360px){
+    #mainContainer{
+        width: 100%;
+        height: 621px;
+    }
+    #input,#input2{
+       font-size: 22px;
+    }
+    ::placeholder{
+        font-size: 19px;
+    }
+    #save1{
+        padding: 3px;
+        font-size: 26px;
+        border-radius: 5px;  
+        border-bottom-left-radius: 25px;
+    }
+    #button1{
+        padding: 3px;
+        font-size: 25px;  
+        border-radius: 5px;  
+        border-bottom-left-radius: 25px;
+    }
+    #button2{
+        padding: 3px;
+        font-size: 25px;  
+        border-radius: 5px;  
+        border-bottom-left-radius: 25px;
+    }
+    .buttonsDiv{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    #headingDiv h1{
+        margin-top: 0px;
+        margin-bottom: 12px;
+        font-size: 32px;
+        opacity: .8;
+    }
+    .div1 p{
+        font-size: 20px;
+    }
+    .width{
+        width: 20px;
+    }
+}
+
+
+
+
+
+
+
